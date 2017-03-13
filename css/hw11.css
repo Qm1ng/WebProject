@@ -1,0 +1,136 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**/
+
+.socialmedia {
+	float:right;
+}
+a {
+	text-decoration: none;
+}
+.nav{
+	float: right;
+	margin-top:60px;
+}
+.nav li{
+	display: inline;
+	text-decoration: none;
+}
+h1 {
+	font-size: 36px;
+	color :blue;
+	padding:20px;
+}
+h3 {
+	font-size: 28px;
+	font-family: serif;
+}
+.blue {
+	color: #0066ff;
+}
+.wrap {
+	width: 940px;
+	margin:0 auto;
+}
+
+.header {
+	font-size:20px;
+	color:gray;
+	padding:10px;
+	padding-bottom: 20px;
+}
+.content {
+	height: 520px;
+
+}
+.slider-left {
+	float:left;
+
+}
+.slider-right {
+	background-color: #669999;
+	width: 260px; 
+	height: 377px;
+	float:right;
+	padding:20px;
+}
+
+.intro {
+	clear:both;
+	width: 940px;
+	height: 50px;
+	background: white;
+	text-align: center;
+	padding: 20px;
+}
+
+.events-right {
+	border:3px;
+	background: white;
+	float:right;
+	width: 470px;
+	height: 200px;
+}
+.events-left {
+	border:3px;
+	background: white;
+	float:left;
+	width: 470px;
+	height: 200px;
+}
+
+
+
+
+.footer {
+	clear:both;
+	width: 940px;
+	height: 30px;
+	line-height:20px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
