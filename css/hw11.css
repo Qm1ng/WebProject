@@ -47,6 +47,8 @@ table {
 
 .socialmedia {
 	float:right;
+	margin-left: 10px;
+	margin-right: 5px;
 }
 a {
 	text-decoration: none;
@@ -54,19 +56,27 @@ a {
 .nav{
 	float: right;
 	margin-top:60px;
+	margin-right: -90px;
 }
 .nav li{
 	display: inline;
 	text-decoration: none;
+	font-size: 0.9em;
+	margin-left: 9px;
+	margin-right: 9px;
 }
 h1 {
-	font-size: 36px;
-	color :blue;
-	padding:20px;
+	font-size: 42px;
+	color :purple;
+	font-family: Impact;
 }
 h3 {
 	font-size: 28px;
 	font-family: serif;
+}
+h4{
+	font-size: 18px;
+
 }
 .blue {
 	color: #0066ff;
@@ -74,6 +84,7 @@ h3 {
 .wrap {
 	width: 940px;
 	margin:0 auto;
+	font-family: serif;
 }
 
 .header {
@@ -84,53 +95,99 @@ h3 {
 }
 .content {
 	height: 520px;
+	width: 940px;
 
 }
+
 .slider-left {
 	float:left;
+	margin-bottom: 20px;
 
 }
 .slider-right {
-	background-color: #669999;
-	width: 260px; 
-	height: 377px;
+	background-color: gray;
+	width: 220px; 
+	height: 337px;
 	float:right;
-	padding:20px;
+	padding:40px;
+	margin-bottom: 20px;
 }
-
+.slider-right p {
+	line-height: 20px;
+	margin-bottom:20px;
+	margin-top: 20px;
+}
+.readmore {
+	clear: both;
+	width: 200px;
+	height: 150px;
+	color: #fff;
+	background: #000;
+	font-size: 20px;
+	padding: 10px;
+}
 .intro {
 	clear:both;
-	width: 940px;
+	width: 900px;
 	height: 50px;
 	background: white;
 	text-align: center;
 	padding: 20px;
+	margin-bottom:20px;
 }
-
+.events {
+	margin-bottom: 20px;
+}
 .events-right {
-	border:3px;
+	margin:0 auto;
 	background: white;
 	float:right;
-	width: 470px;
-	height: 200px;
+	width: 410px;
+	height: 330px;
+	padding:30px;
+}
+.events-right ul li {
+	margin: 10px;
+}
+.events-right input {
+	margin-top: 20px;
 }
 .events-left {
-	border:3px;
 	background: white;
 	float:left;
-	width: 470px;
-	height: 200px;
+	width: 410px;
+	height: 330px;
+	padding:30px;
+}
+.events-left-up {
+	margin:20px 0 40px 0;
+}
+.events-left-up img {
+	float: left;
+	margin-right: 20px;
+}
+.events-left-up h4 p {
+	float: right;
+	padding-left: 10px;
 }
 
-
-
-
+.events-left-down {
+	clear: both;
+	padding-top: 20px;
+}
+.events-left-down img {
+	float: left;
+	margin-right: 20px;
+}
+.events-left-down h4 p {
+	float: right;
+}
 .footer {
 	clear:both;
 	width: 940px;
-	height: 30px;
+	height: 50px;
 	line-height:20px;
 	text-align: center;
-	font-family: sans-serif;
+	padding-top: 70px;
 }
 
