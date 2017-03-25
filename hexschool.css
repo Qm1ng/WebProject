@@ -1,0 +1,142 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrapper {
+	margin: 0 auto	;
+	width: 1050px;
+	background: #EFE9E7;
+	color: #3d1101;
+	font-family: MicrosoftJhengHeiRegular;
+}
+.header {
+	width: 1050px;
+	height: 420px;
+}
+.content {
+	height: 300px;
+	padding-bottom: 20px;
+}
+.sidebar span {
+	font-size: 20px;
+	line-height: 32px;
+}
+.footer {
+	height: 300px;
+	padding: 50px;
+}
+.sidebar {
+	width: 200px;
+	float: left;
+	padding: 15px;
+}
+.sidebar ul li {
+	font-size: 16px;
+	line-height: 32px;
+	border-bottom: 1px solid #3D1101;
+}
+.sidebar ul li a {
+	color: #3d1101;
+	display: block;
+}
+.sidebar ul li a:hover {
+	background: #3d1101;
+	color:#fff;
+}
+.mealinfo {
+	width: 750px;
+	float: right;
+}
+.favorite {
+	color:red;
+	position: relative;
+	top:-43%;
+	left:-43%;
+}
+.recommand {
+	color:white;
+	background: purple;
+	position: relative;
+	bottom: 20%;
+}
+#meal {
+	text-align:center;
+	width: 220px;
+	height: 280px;
+	float: left;
+	margin: 10px 10px;
+	background: #EFE9E7;
+	box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+}
+#meal img {
+	width: 220px;
+	height: 120px;
+}
+.btnAdd2cart {
+	border: 2px solid #FF5E45;
+	border-radius: 3px;
+	margin-top: 20px;
+}
+
+
+
+.aboutUs {
+	width: 330px;
+	float: left;
+}
+.aboutUstitle,.contactUstitle{
+	font-size: 24px;
+}
+.contactUs	{
+	width: 330px;
+	float: left;
+}
+.fanPage {
+	width: 330px;
+	float: left;
+}
